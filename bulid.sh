@@ -6,6 +6,7 @@ set -v
 FLINK_URL=`sed '/^FLINK_URL=/!d;s/.*=//' flink-parcel.properties` 
 FLINK_VERSION=`sed '/^FLINK_VERSION=/!d;s/.*=//' flink-parcel.properties`
 FLINK_MD5=`sed '/^FLINK_MD5=/!d;s/.*=//' flink-parcel.properties`
+EXTENS_VERSION=`sed '/^EXTENS_VERSION=/!d;s/.*=//' flink-parcel.properties`
 OS_VERSION=`sed '/^OS_VERSION=/!d;s/.*=//' flink-parcel.properties`
 CDH_MIN_FULL=`sed '/^CDH_MIN_FULL=/!d;s/.*=//' flink-parcel.properties`
 CDH_MIN=`sed '/^CDH_MIN=/!d;s/.*=//' flink-parcel.properties`
